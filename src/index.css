@@ -4,3 +4,44 @@
   box-sizing: border-box;
   font-family: 'Funnel Sans', sans-serif;
 }
+
+/* layout */
+
+header {
+  background-color: #3c096c;
+  color: #c77dff;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px 30px;
+}
+
+.nav-container {
+  display: flex;
+  list-style: none;
+  gap: 1em;
+  font-size: 0.875rem;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c77dff;
+  border-bottom: 2px dotted #c77dff;
+}
+
+a:active {
+  color: #e0aaff;
+}
+.main-logo {
+  width: 30%;
+  height: auto;
+}
