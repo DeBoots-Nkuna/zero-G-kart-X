@@ -4,11 +4,13 @@ export const Header = () => {
   return (
     <header className="header-container">
       <div className="container">
-        <img
-          className="main-logo"
-          src={kartLogo}
-          alt="Go-Kart logo with character in yellow suit with red helmat sitting inside a red kart with black wheels and yellow rims"
-        />
+        <h1 className="title">
+          <img
+            className="main-logo"
+            src={kartLogo}
+            alt="Go-Kart logo with character in yellow suit with red helmat sitting inside a red kart with black wheels and yellow rims"
+          />
+        </h1>
         <nav>
           <ul className="nav-container">
             <li>
