@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://DeBoots-Nkuna.github.io/zero-G-kart-X.git",
+  "homepage": "https://DeBoots-Nkuna.github.io/zero-G-kart-X",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
